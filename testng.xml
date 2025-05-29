@@ -1,0 +1,15 @@
+
+<suite name="Suite">
+	<listeners>
+	  <listener class-name="generic.SparkReport"/>
+  </listeners>
+  <test thread-count="5" name="Test">
+	  <paramter name ="prop" value="./data/qa_env.properties"/>
+   <package>
+      <package name="script"/>
+      <classes>
+      <class name="script.ValidLogin"/>
+    </classes>
+    </package>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
