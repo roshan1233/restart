@@ -60,6 +60,7 @@ public class Test2 {
 		else {
 			Reporter.log("Cart is not empty", true);
 		}
+		Reporter.log("test case", false);
 		
 	
 	}
